@@ -16,3 +16,4 @@ def index(tagline='software'):
 @webui.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html', version=__version__), 404
+    
